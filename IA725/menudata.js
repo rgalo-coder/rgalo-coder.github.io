@@ -23,19 +23,20 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Página Principal",url:"index.html"},
+{text:"Main Page",url:"index.html"},
 {text:"Classes",url:"annotated.html",children:[
-{text:"Lista de Classes",url:"annotated.html"},
-{text:"Índice dos Componentes",url:"classes.html"},
-{text:"Membros de classe",url:"functions.html",children:[
-{text:"Todos",url:"functions.html"},
-{text:"Funções",url:"functions_func.html"},
-{text:"Variáveis",url:"functions_vars.html"}]}]},
-{text:"Arquivos",url:"files.html",children:[
-{text:"Lista de Arquivos",url:"files.html"},
-{text:"Membros dos Arquivos",url:"globals.html",children:[
-{text:"Todos",url:"globals.html",children:[
+{text:"Class List",url:"annotated.html"},
+{text:"Class Index",url:"classes.html"},
+{text:"Class Members",url:"functions.html",children:[
+{text:"All",url:"functions.html"},
+{text:"Functions",url:"functions_func.html"},
+{text:"Variables",url:"functions_vars.html"}]}]},
+{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html"},
+{text:"File Members",url:"globals.html",children:[
+{text:"All",url:"globals.html",children:[
 {text:"c",url:"globals.html#index_c"},
+{text:"e",url:"globals.html#index_e"},
 {text:"f",url:"globals.html#index_f"},
 {text:"g",url:"globals.html#index_g"},
 {text:"i",url:"globals.html#index_i"},
@@ -48,9 +49,10 @@ var menudata={children:[
 {text:"v",url:"globals.html#index_v"},
 {text:"w",url:"globals.html#index_w"},
 {text:"z",url:"globals.html#index_z"}]},
-{text:"Funções",url:"globals_func.html"},
-{text:"Variáveis",url:"globals_vars.html",children:[
+{text:"Functions",url:"globals_func.html"},
+{text:"Variables",url:"globals_vars.html",children:[
 {text:"c",url:"globals_vars.html#index_c"},
+{text:"e",url:"globals_vars.html#index_e"},
 {text:"f",url:"globals_vars.html#index_f"},
 {text:"g",url:"globals_vars.html#index_g"},
 {text:"i",url:"globals_vars.html#index_i"},
@@ -59,4 +61,4 @@ var menudata={children:[
 {text:"t",url:"globals_vars.html#index_t"},
 {text:"v",url:"globals_vars.html#index_v"},
 {text:"z",url:"globals_vars.html#index_z"}]},
-{text:"Definições e Macros",url:"globals_defs.html"}]}]}]}
+{text:"Macros",url:"globals_defs.html"}]}]}]}

@@ -13,8 +13,6 @@ var _exercicio_base_8cpp =
     [ "numIndicesMesa", "_exercicio_base_8cpp.html#a0b834702b554d6e37c57a03aa86d8504", null ],
     [ "numTotalIndices", "_exercicio_base_8cpp.html#ac25aa76c22e8537154864ce8c77f221d", null ],
     [ "PersProjInfo", "_exercicio_base_8cpp.html#a9ed96a80d76221410e452bd7b993a7b2", null ],
-    [ "pFSFileName", "_exercicio_base_8cpp.html#a12d0e3d381277fc40e02dc00b6b19d5a", null ],
-    [ "pVSFileName", "_exercicio_base_8cpp.html#a3f87b29f7f3189656ffa0f4189a8e59b", null ],
     [ "TransBule", "_exercicio_base_8cpp.html#a84b86dc3cf26d42e75598e37644b632b", null ],
     [ "TransIcosaedro", "_exercicio_base_8cpp.html#aa0dd6c3b7c22dee2fb3fcdca80a136bb", null ],
     [ "TransMesa", "_exercicio_base_8cpp.html#a3356de8951984abf2837ccb616abcb76", null ],

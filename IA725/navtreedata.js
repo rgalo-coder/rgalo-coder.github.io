@@ -25,23 +25,31 @@
 var NAVTREE =
 [
   [ "IA725 - Rafael Galo", "index.html", [
-    [ "Trabalho de Computação Grafica IA725 - Rafael Galo", "index.html", null ],
-    [ "Classes", "annotated.html", [
-      [ "Lista de Classes", "annotated.html", "annotated_dup" ],
-      [ "Índice dos Componentes", "classes.html", null ],
-      [ "Membros de classe", "functions.html", [
-        [ "Todos", "functions.html", null ],
-        [ "Funções", "functions_func.html", null ],
-        [ "Variáveis", "functions_vars.html", null ]
+    [ "Trabalho de Computação Grafica IA725 - Rafael Galo", "index.html", [
+      [ "Trabalho de Computação Grafica IA725", "index.html#autotoc_md0", [
+        [ "Itens Gerados", "index.html#autotoc_md1", [
+          [ "Mesa", "index.html#autotoc_md2", null ],
+          [ "Icosaedro", "index.html#autotoc_md3", null ],
+          [ "Bule de Utah", "index.html#autotoc_md4", null ]
+        ] ]
       ] ]
     ] ],
-    [ "Arquivos", "files.html", [
-      [ "Lista de Arquivos", "files.html", "files_dup" ],
-      [ "Membros dos Arquivos", "globals.html", [
-        [ "Todos", "globals.html", null ],
-        [ "Funções", "globals_func.html", null ],
-        [ "Variáveis", "globals_vars.html", null ],
-        [ "Definições e Macros", "globals_defs.html", null ]
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -52,5 +60,5 @@ var NAVTREEINDEX =
 "_bule_utah_8cpp.html"
 ];
 
-var SYNCONMSG = 'clique para desativar a sincronização do painel';
-var SYNCOFFMSG = 'clique para ativar a sincronização do painel';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
