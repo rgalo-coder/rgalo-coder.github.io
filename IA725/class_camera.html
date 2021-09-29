@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('class_camera.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_camera-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Camera Class Reference</div></div>
 </div><!--header-->
@@ -101,15 +102,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01f94c3543f56ede7af49dc778f19331"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a01f94c3543f56ede7af49dc778f19331">Camera</a> ()</td></tr>
 <tr class="memdesc:a01f94c3543f56ede7af49dc778f19331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor da classe <a class="el" href="class_camera.html" title="Classe para controle da camera">Camera</a>  <a href="class_camera.html#a01f94c3543f56ede7af49dc778f19331">More...</a><br /></td></tr>
 <tr class="separator:a01f94c3543f56ede7af49dc778f19331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e35c964f607e7eef0d208907d0d4a1d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a2e35c964f607e7eef0d208907d0d4a1d">GetzNear</a> ()</td></tr>
+<tr class="separator:a2e35c964f607e7eef0d208907d0d4a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2a973276a03c6822cfc8dd0b763d938"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#af2a973276a03c6822cfc8dd0b763d938">SetPosition</a> (float x, float y, float z)</td></tr>
 <tr class="memdesc:af2a973276a03c6822cfc8dd0b763d938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define posicao da camera  <a href="class_camera.html#af2a973276a03c6822cfc8dd0b763d938">More...</a><br /></td></tr>
 <tr class="separator:af2a973276a03c6822cfc8dd0b763d938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbcaba2f79b9150096d7c7bb72bfca94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#adbcaba2f79b9150096d7c7bb72bfca94">OnKeyboard</a> (unsigned char key)</td></tr>
 <tr class="memdesc:adbcaba2f79b9150096d7c7bb72bfca94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcao chamada quando uma tecla e pressionada  <a href="class_camera.html#adbcaba2f79b9150096d7c7bb72bfca94">More...</a><br /></td></tr>
 <tr class="separator:adbcaba2f79b9150096d7c7bb72bfca94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad36e4a95dd6ca6c4f8558b32ceae6438"><td class="memItemLeft" align="right" valign="top">Matrix4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">GetMatrix</a> ()</td></tr>
+<tr class="memitem:ad36e4a95dd6ca6c4f8558b32ceae6438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix4f.html">Matrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">GetMatrix</a> ()</td></tr>
 <tr class="memdesc:ad36e4a95dd6ca6c4f8558b32ceae6438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna matrix 4x4 com a posicao da camera  <a href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">More...</a><br /></td></tr>
 <tr class="separator:ad36e4a95dd6ca6c4f8558b32ceae6438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a1db2166635ff27594eda3a23130b66ac"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a1db2166635ff27594eda3a23130b66ac">zNear</a> = 1.0f</td></tr>
+<tr class="separator:a1db2166635ff27594eda3a23130b66ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Classe para controle da camera </p>
@@ -141,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Matrix4f Camera::GetMatrix </td>
+          <td class="memname"><a class="el" href="class_matrix4f.html">Matrix4f</a> Camera::GetMatrix </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -151,6 +159,23 @@ Public Member Functions</h2></td></tr>
 
 <p>Retorna matrix 4x4 com a posicao da camera </p>
 <dl class="section return"><dt>Returns</dt><dd>Matrix 4x4 com posicao da camera</dd></dl>
+
+</div>
+</div>
+<a id="a2e35c964f607e7eef0d208907d0d4a1d" name="a2e35c964f607e7eef0d208907d0d4a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e35c964f607e7eef0d208907d0d4a1d">&#9670;&nbsp;</a></span>GetzNear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Camera::GetzNear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -221,6 +246,21 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1db2166635ff27594eda3a23130b66ac" name="a1db2166635ff27594eda3a23130b66ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1db2166635ff27594eda3a23130b66ac">&#9670;&nbsp;</a></span>zNear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Camera::zNear = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

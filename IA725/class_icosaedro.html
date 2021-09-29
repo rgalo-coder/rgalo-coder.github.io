@@ -98,12 +98,16 @@ $(document).ready(function(){initNavTree('class_icosaedro.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abf91fa32c7662443bad04fea9525d18e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_icosaedro.html#abf91fa32c7662443bad04fea9525d18e">Icosaedro</a> (GLuint *<a class="el" href="_exercicio_base_8cpp.html#a249e1b14e88cc61d8afdb4229a2b4fff">VBO</a>, GLuint *<a class="el" href="_exercicio_base_8cpp.html#a24b0e7ea2e125a56c9f1975f6c67bc8b">IBO</a>, int graus)</td></tr>
+<tr class="memitem:abf91fa32c7662443bad04fea9525d18e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_icosaedro.html#abf91fa32c7662443bad04fea9525d18e">Icosaedro</a> (GLuint *VBO, GLuint *IBO, int graus)</td></tr>
 <tr class="memdesc:abf91fa32c7662443bad04fea9525d18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor para geracao do <a class="el" href="class_icosaedro.html" title="Classe para gerar o Icosaedro e subdividi-lo">Icosaedro</a> subdivido  <a href="class_icosaedro.html#abf91fa32c7662443bad04fea9525d18e">More...</a><br /></td></tr>
 <tr class="separator:abf91fa32c7662443bad04fea9525d18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbe2fb010b9cb39cb6010ee23d8f1760"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_icosaedro.html#acbe2fb010b9cb39cb6010ee23d8f1760">RetornarNumIndices</a> ()</td></tr>
 <tr class="memdesc:acbe2fb010b9cb39cb6010ee23d8f1760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna a quantidade de indices criados  <a href="class_icosaedro.html#acbe2fb010b9cb39cb6010ee23d8f1760">More...</a><br /></td></tr>
 <tr class="separator:acbe2fb010b9cb39cb6010ee23d8f1760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9957d80a78dac0f33f30654942411af0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_icosaedro.html#a9957d80a78dac0f33f30654942411af0">HSVtoRGB</a> (float H, float S, float V, float *rgb)</td></tr>
+<tr class="separator:a9957d80a78dac0f33f30654942411af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2f75d15e9696d43c41833b30792512"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_icosaedro.html#a8f2f75d15e9696d43c41833b30792512">OnKeyboard</a> (unsigned char Key)</td></tr>
+<tr class="separator:a8f2f75d15e9696d43c41833b30792512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Classe para gerar o <a class="el" href="class_icosaedro.html" title="Classe para gerar o Icosaedro e subdividi-lo">Icosaedro</a> e subdividi-lo </p>
@@ -143,7 +147,7 @@ Public Member Functions</h2></td></tr>
 <p>Construtor para geracao do <a class="el" href="class_icosaedro.html" title="Classe para gerar o Icosaedro e subdividi-lo">Icosaedro</a> subdivido </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">VBO</td><td>Vertex Buffer para insercao dos dados de vertice</td></tr>
+    <tr><td class="paramname">VBO</td><td><a class="el" href="struct_vertex.html">Vertex</a> Buffer para insercao dos dados de vertice</td></tr>
     <tr><td class="paramname">IBO</td><td>Index Buffer para insercao dos dados de indice</td></tr>
     <tr><td class="paramname">graus</td><td>quantidade de vezes que o icosaedro sera subdivido</td></tr>
   </table>
@@ -153,6 +157,64 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9957d80a78dac0f33f30654942411af0" name="a9957d80a78dac0f33f30654942411af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9957d80a78dac0f33f30654942411af0">&#9670;&nbsp;</a></span>HSVtoRGB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Icosaedro::HSVtoRGB </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>H</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>S</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>rgb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f2f75d15e9696d43c41833b30792512" name="a8f2f75d15e9696d43c41833b30792512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2f75d15e9696d43c41833b30792512">&#9670;&nbsp;</a></span>OnKeyboard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Icosaedro::OnKeyboard </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>Key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acbe2fb010b9cb39cb6010ee23d8f1760" name="acbe2fb010b9cb39cb6010ee23d8f1760"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbe2fb010b9cb39cb6010ee23d8f1760">&#9670;&nbsp;</a></span>RetornarNumIndices()</h2>
 

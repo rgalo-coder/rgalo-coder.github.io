@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>IA725 - Rafael Galo: C:/Users/rafae/source/repos/ComputacaoGrafica/ExercicioBase/camera.h Source File</title>
+<title>IA725 - Rafael Galo: E:/Documents/source/repos/ComputacaoGrafica/ExercicioBase/camera.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -108,40 +108,47 @@ $(document).ready(function(){initNavTree('camera_8h_source.html',''); initResiza
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#ifndef CAMERA_H</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define CAMERA_H</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;ogldev_math_3d.h&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="ogldev__math__3d_8h.html">ogldev_math_3d.h</a>&quot;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_camera.html">   27</a></span><span class="keyword">class </span><a class="code hl_class" href="class_camera.html">Camera</a></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_function" href="class_camera.html#a01f94c3543f56ede7af49dc778f19331">Camera</a>();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_camera.html#af2a973276a03c6822cfc8dd0b763d938">SetPosition</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> z);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_camera.html#adbcaba2f79b9150096d7c7bb72bfca94">OnKeyboard</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    Matrix4f <a class="code hl_function" href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">GetMatrix</a>();</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_camera.html#a2e35c964f607e7eef0d208907d0d4a1d">GetzNear</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_camera.html#af2a973276a03c6822cfc8dd0b763d938">SetPosition</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> z);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_camera.html#adbcaba2f79b9150096d7c7bb72bfca94">OnKeyboard</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_class" href="class_matrix4f.html">Matrix4f</a> <a class="code hl_function" href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">GetMatrix</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_camera.html#a1db2166635ff27594eda3a23130b66ac">   54</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_camera.html#a1db2166635ff27594eda3a23130b66ac">zNear</a> = 1.0f;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    Vector3f m_pos;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    Vector3f m_target;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    Vector3f m_up;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">float</span> m_speed = 0.2f;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">bool</span> m_isWireframe = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_struct" href="struct_vector3f.html">Vector3f</a> m_pos;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_struct" href="struct_vector3f.html">Vector3f</a> m_target;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_struct" href="struct_vector3f.html">Vector3f</a> m_up;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> m_speed = 0.2f;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">bool</span> m_isWireframe = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif  </span><span class="comment">/* CAMERA_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif  </span><span class="comment">/* CAMERA_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aclass_camera_html"><div class="ttname"><a href="class_camera.html">Camera</a></div><div class="ttdoc">Classe para controle da camera</div><div class="ttdef"><b>Definition:</b> camera.h:28</div></div>
 <div class="ttc" id="aclass_camera_html_a01f94c3543f56ede7af49dc778f19331"><div class="ttname"><a href="class_camera.html#a01f94c3543f56ede7af49dc778f19331">Camera::Camera</a></div><div class="ttdeci">Camera()</div><div class="ttdoc">Construtor da classe Camera</div><div class="ttdef"><b>Definition:</b> camera.cpp:9</div></div>
-<div class="ttc" id="aclass_camera_html_ad36e4a95dd6ca6c4f8558b32ceae6438"><div class="ttname"><a href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">Camera::GetMatrix</a></div><div class="ttdeci">Matrix4f GetMatrix()</div><div class="ttdoc">Retorna matrix 4x4 com a posicao da camera</div><div class="ttdef"><b>Definition:</b> camera.cpp:94</div></div>
-<div class="ttc" id="aclass_camera_html_adbcaba2f79b9150096d7c7bb72bfca94"><div class="ttname"><a href="class_camera.html#adbcaba2f79b9150096d7c7bb72bfca94">Camera::OnKeyboard</a></div><div class="ttdeci">void OnKeyboard(unsigned char key)</div><div class="ttdoc">Funcao chamada quando uma tecla e pressionada</div><div class="ttdef"><b>Definition:</b> camera.cpp:28</div></div>
-<div class="ttc" id="aclass_camera_html_af2a973276a03c6822cfc8dd0b763d938"><div class="ttname"><a href="class_camera.html#af2a973276a03c6822cfc8dd0b763d938">Camera::SetPosition</a></div><div class="ttdeci">void SetPosition(float x, float y, float z)</div><div class="ttdoc">Define posicao da camera</div><div class="ttdef"><b>Definition:</b> camera.cpp:20</div></div>
+<div class="ttc" id="aclass_camera_html_a1db2166635ff27594eda3a23130b66ac"><div class="ttname"><a href="class_camera.html#a1db2166635ff27594eda3a23130b66ac">Camera::zNear</a></div><div class="ttdeci">float zNear</div><div class="ttdef"><b>Definition:</b> camera.h:54</div></div>
+<div class="ttc" id="aclass_camera_html_a2e35c964f607e7eef0d208907d0d4a1d"><div class="ttname"><a href="class_camera.html#a2e35c964f607e7eef0d208907d0d4a1d">Camera::GetzNear</a></div><div class="ttdeci">float GetzNear()</div><div class="ttdef"><b>Definition:</b> camera.cpp:18</div></div>
+<div class="ttc" id="aclass_camera_html_ad36e4a95dd6ca6c4f8558b32ceae6438"><div class="ttname"><a href="class_camera.html#ad36e4a95dd6ca6c4f8558b32ceae6438">Camera::GetMatrix</a></div><div class="ttdeci">Matrix4f GetMatrix()</div><div class="ttdoc">Retorna matrix 4x4 com a posicao da camera</div><div class="ttdef"><b>Definition:</b> camera.cpp:107</div></div>
+<div class="ttc" id="aclass_camera_html_adbcaba2f79b9150096d7c7bb72bfca94"><div class="ttname"><a href="class_camera.html#adbcaba2f79b9150096d7c7bb72bfca94">Camera::OnKeyboard</a></div><div class="ttdeci">void OnKeyboard(unsigned char key)</div><div class="ttdoc">Funcao chamada quando uma tecla e pressionada</div><div class="ttdef"><b>Definition:</b> camera.cpp:31</div></div>
+<div class="ttc" id="aclass_camera_html_af2a973276a03c6822cfc8dd0b763d938"><div class="ttname"><a href="class_camera.html#af2a973276a03c6822cfc8dd0b763d938">Camera::SetPosition</a></div><div class="ttdeci">void SetPosition(float x, float y, float z)</div><div class="ttdoc">Define posicao da camera</div><div class="ttdef"><b>Definition:</b> camera.cpp:23</div></div>
+<div class="ttc" id="aclass_matrix4f_html"><div class="ttname"><a href="class_matrix4f.html">Matrix4f</a></div><div class="ttdef"><b>Definition:</b> ogldev_math_3d.h:243</div></div>
+<div class="ttc" id="aogldev__math__3d_8h_html"><div class="ttname"><a href="ogldev__math__3d_8h.html">ogldev_math_3d.h</a></div></div>
+<div class="ttc" id="astruct_vector3f_html"><div class="ttname"><a href="struct_vector3f.html">Vector3f</a></div><div class="ttdef"><b>Definition:</b> ogldev_math_3d.h:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_e6bb53534ac0e427887cf7a94c0c004e.html">C:</a></li><li class="navelem"><a class="el" href="dir_8ceffd4ee35c3518d4e8bdc7e638efe8.html">Users</a></li><li class="navelem"><a class="el" href="dir_7051c0065c825dbd0bcd4578995a7044.html">rafae</a></li><li class="navelem"><a class="el" href="dir_5da481d7c2a5786a130f32ed71e22f96.html">source</a></li><li class="navelem"><a class="el" href="dir_0284cad350535b96d6ee34242a3c47c6.html">repos</a></li><li class="navelem"><a class="el" href="dir_08614f28ca8d1afd8897ac88e55c821c.html">ComputacaoGrafica</a></li><li class="navelem"><a class="el" href="dir_008d4873c45a2b2e893528444313c7cd.html">ExercicioBase</a></li><li class="navelem"><a class="el" href="camera_8h.html">camera.h</a></li>
+    <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_da92606663f4ecb03aa66c183f15dac3.html">repos</a></li><li class="navelem"><a class="el" href="dir_7186faf172f58d4b3199df83a7c37c3c.html">ComputacaoGrafica</a></li><li class="navelem"><a class="el" href="dir_f997f5780ee63bdcc169d05dff320097.html">ExercicioBase</a></li><li class="navelem"><a class="el" href="camera_8h.html">camera.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
